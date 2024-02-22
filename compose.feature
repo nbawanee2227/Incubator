@@ -19,7 +19,7 @@ When click on "Compose" button
 And redirected to the create new email screen
  Then user should create and send a new email successfully 
  
- Scenario: Confirm that users can add multiple recipients to an email
+ Scenario Outline: Confirm that users can add multiple recipients to an email
 When user redirected to the gmail box
 And click on compose button
 And navigate to new email box
